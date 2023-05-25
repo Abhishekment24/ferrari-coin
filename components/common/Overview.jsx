@@ -35,16 +35,16 @@ const Overview = () => {
                 Our Users Around the World
               </span>
               <h2 className="section-title">Let the number speak for us</h2>
-              <p>
+              {/*} <p>
                 Over the years we have provided millions of players with tickets
                 to across the globe and enjoyed having more than one
                 million winners
-              </p>
+              </p>*/}
             </div>
           </div>
         </div>
       </div>
-      <div className="map-pointer">
+      {/*<div className="map-pointer">
         <div className="pointer num-1"></div>
         <div className="pointer num-2"></div>
         <div className="pointer num-3"></div>
@@ -54,7 +54,7 @@ const Overview = () => {
         <div className="pointer num-7"></div>
         <div className="pointer num-8"></div>
         <div className="pointer num-9"></div>
-      </div>
+      </div>*/}
 
       <div className="container">
         <div className="row justify-content-center ">

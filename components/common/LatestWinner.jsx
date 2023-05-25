@@ -32,7 +32,7 @@ const LatestWinner = () => {
           </div>
           <div className="row">
             <div className="col-lg-3">
-              <div className={`${styls.anumber}`}>
+              <div className={`play-card--one ${styls.anumber}`}>
                 <h2>Phase 1</h2>
                 <ul className={`${styls.ULS}`}>
                   <li>Socials Creation</li>
@@ -44,7 +44,7 @@ const LatestWinner = () => {
               </div>
             </div>
             <div className="col-lg-3">
-              <div className={`${styls.anumber}`}>
+              <div className={`play-card--one ${styls.anumber}`}>
                 <h2>Phase 2</h2>
                 <ul className={`${styls.ULS}`}>
                   <li>Twitter Campaign Trending</li>
@@ -60,7 +60,7 @@ const LatestWinner = () => {
               </div>
             </div>
             <div className="col-lg-3">
-              <div className={`${styls.anumber}`}>
+              <div className={`play-card--one ${styls.anumber}`}>
                 <h2>Phase 3</h2>
                 <ul className={`${styls.ULS}`}>
                   <li>Press Releases and Billboard </li>
@@ -72,7 +72,7 @@ const LatestWinner = () => {
               </div>
             </div>
             <div className="col-lg-3">
-              <div className={`${styls.anumber}`}>
+              <div className={`play-card--one ${styls.anumber}`}>
                 <h2>Phase 4</h2>
                 <ul className={`${styls.ULS}`}>
                   <li>Sponsorship and Partnership Worldwide</li>

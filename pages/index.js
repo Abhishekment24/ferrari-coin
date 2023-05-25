@@ -20,8 +20,8 @@ export default function Home() {
       {/* Contest section */}
       <Contest />
 
-      {/* Winner section */}
-      <Winner />
+      {/* Winner section 
+      <Winner />*/}
 
       {/*Latest Winner section */}
       <LatestWinner />

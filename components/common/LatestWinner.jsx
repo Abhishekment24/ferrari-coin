@@ -24,9 +24,9 @@ const LatestWinner = () => {
             <div className="col-lg-8 text-center section-header">
               <h2 className="section-title">Roadmap</h2>
               <p>
-                All jokes aside, here is a rough sketch of Ferrari Car
-                ahead. We dont was not to give everything away on day 1, Expect
-                surprises along the way ;
+                All jokes aside, here is a rough sketch of Ferrari Car ahead. We
+                dont was not to give everything away on day 1, Expect surprises
+                along the way ;
               </p>
             </div>
           </div>
@@ -48,7 +48,7 @@ const LatestWinner = () => {
                 <h2>Phase 2</h2>
                 <ul className={`${styls.ULS}`}>
                   <li>Twitter Campaign Trending</li>
-                  <li>Rare Ferrari Car</li>
+
                   <li>
                     Beta phase in the platform, with staking, yield farming,
                     DAOgovernance

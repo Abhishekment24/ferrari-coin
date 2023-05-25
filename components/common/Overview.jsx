@@ -37,7 +37,7 @@ const Overview = () => {
               <h2 className="section-title">Let the number speak for us</h2>
               <p>
                 Over the years we have provided millions of players with tickets
-                to lotteries across the globe and enjoyed having more than one
+                to across the globe and enjoyed having more than one
                 million winners
               </p>
             </div>
@@ -76,7 +76,7 @@ const Overview = () => {
               </div>
               <div className="overview-card__content">
                 <span className="number">8</span>
-                <p className={` ${styls.para}`}>Buy</p>
+                <p className={` ${styls.para}`}>Buy/Sell</p>
               </div>
             </div>
           </div>

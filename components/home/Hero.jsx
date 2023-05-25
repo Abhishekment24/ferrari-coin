@@ -49,9 +49,9 @@ const Hero = () => {
                 </p>
                 <p>
                   Here&#39;s an exciting opportunity for you to win a luxurious
-                  car! Explore our collection of prestigious cars that are up
-                  for grabs in our thrilling car prize draws. Who knows, you
-                  could be the next fortunate winner to drive away in style!
+                  car! Explore our collection of cars that are up for grabs in
+                  our thrilling car prize draws. Who knows, you could be the
+                  next fortunate winner to drive away in style!
                 </p>
                 {/*}  <div className="hero__btn">
                   <Link href="/contest" className="cmn-btn">

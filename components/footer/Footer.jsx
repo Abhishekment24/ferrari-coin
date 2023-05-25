@@ -66,9 +66,9 @@ const Footer = () => {
               <li>
                 <Link href="#contest">Contest</Link>
               </li>
-              <li>
+              {/*<li>
                 <Link href="#winner">Winners</Link>
-              </li>
+              </li>*/}
 
               <li>
                 <Link href="#roadmap">Roadmap</Link>

@@ -9,7 +9,11 @@ const Header = () => {
   const [open, setOpen] = useState("");
   const [windowHeight, setWindowHeight] = useState(0);
   const [show, setShow] = useState(false);
+  const [showDropNav, setShowDropNav] = useState(false);
 
+  function handleLink() {
+    setShowDropNav(false);
+  }
   const handleOpen = (e) => {
     if (open !== e.target.text) {
       setOpen(e.target.text);
@@ -99,7 +103,7 @@ const Header = () => {
             <button
               className="navbar-toggler ms-auto"
               type="button"
-              onClick={() => setShow(!show)}
+              onClick={() => setShowDropNav(!showDropNav)}
               //data-bs-toggle="collapse"
               // data-bs-target="#navbarContent"
               // aria-controls="navbarContent"
@@ -109,12 +113,12 @@ const Header = () => {
               <span className="menu-toggle"></span>
             </button>
             <div
-              className={`collapse navbar-collapse ${show && "show"}`}
+              className={`collapse navbar-collapse ${showDropNav && "show"}`}
               // id="navbarContent"
             >
               <ul className="navbar-nav main-menu ms-auto">
                 <li>
-                  <Link href="/" onClick={() => setShow(false)}>
+                  <Link href="/" onClick={handleLink} aria-current="page">
                     Home
                   </Link>
                 </li>
@@ -142,12 +146,12 @@ const Header = () => {
                   </ul>
                 </li>*/}
                 <li>
-                  <Link href="#join" onClick={() => setShow(false)}>
+                  <Link href="#join" onClick={handleLink}>
                     Join
                   </Link>
                 </li>
                 <li>
-                  <Link href="#contest" onClick={() => setShow(false)}>
+                  <Link href="#contest" onClick={handleLink}>
                     Contest
                   </Link>
                 </li>
@@ -174,12 +178,12 @@ const Header = () => {
                       </li>
                     ))}
                   </ul>
-                </li>*/}
+                </li>
                 <li>
-                  <Link href="#winner" onClick={() => setShow(false)}>
+                  <Link href="#winner" onClick={handleLink}>
                     Winners
                   </Link>
-                </li>
+                </li>*/}
 
                 {/* <li
                   className={`menu_has_children ${
@@ -210,17 +214,18 @@ const Header = () => {
                   </ul>
                 </li>*/}
                 <li>
-                  <Link href="#roadmap" onClick={() => setShow(false)}>
+                  <Link href="#roadmap" onClick={handleLink}>
                     Roadmap
                   </Link>
                 </li>
               </ul>
-              <div className="nav-right">
+             {/*} <div className="nav-right">
                 <Link href="" className="cmn-btn style--three btn--sm">
                   <Image src={tag} alt="icon" className="me-1" /> Buy Tickets
                 </Link>
-              </div>
+              </div>*/}
             </div>
+           
           </nav>
         </div>
       </div>

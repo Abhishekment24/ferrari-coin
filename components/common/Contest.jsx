@@ -32,7 +32,10 @@ const Contest = () => {
                 Try your chance at winning
               </span>
               <h2 className="section-title">Current Contest</h2>
-              <p>Participants buy Ferrari coin and lots are draw</p>
+              <p>
+                Participants buy Ferrari coin and lots are Drawn to Determine
+                the winners
+              </p>
             </div>
           </div>
         </div>

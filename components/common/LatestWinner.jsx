@@ -25,7 +25,7 @@ const LatestWinner = () => {
               <h2 className="section-title">Roadmap</h2>
               <p>
                 All jokes aside, here is a rough sketch of Ferrari Car ahead. We
-                dont was not to give everything away on day 1, Expect surprises
+                do not  want  to give everything away on day 1, Expect surprises
                 along the way ;
               </p>
             </div>

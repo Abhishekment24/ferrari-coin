@@ -50,7 +50,7 @@ const Hero = () => {
                 <p>
                   Ferrari Coin Giveaways is a new and very exciting Crytpo
                   competition site, where you can WIN amazing cars and other
-                  prizes When we Reach our given milstone where Winners will be
+                  prizes When we Reach our given milestone where Winners will be
                   chosen Live through our Telegram channel...So why not join us
                   on our journey and get in the mix to WIN wonderful Ferrari
                 </p>

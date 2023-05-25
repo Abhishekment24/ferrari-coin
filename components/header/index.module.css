@@ -1,0 +1,58 @@
+.ferrlog {
+  width: 101px;
+}
+.size {
+  font-size: 17px !important;
+}
+.anumber p {
+  margin-bottom: 0;
+}
+
+.anumber {
+  border-radius: 10px;
+  padding: 15px;
+  border: 1px solid rgb(119 1 143);
+  margin-bottom: 20px;
+}
+.ULS {
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+.ULS li {
+  font-size: 16px;
+  color: #fff;
+}
+.para {
+  font-size: 36px !important;
+}
+
+@media (min-width: 1024px) {
+  .heights {
+    min-height: 530px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1023px) {
+  .heights {
+    min-height: 590px;
+  }
+}
+@media (min-width: 1200px) {
+  .heights {
+    min-height: 490px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .heights {
+    min-height: 456px;
+  }
+}
+@media (min-width: 401px) {
+  .pis {
+    display: none;
+  }
+}

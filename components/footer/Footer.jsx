@@ -1,6 +1,11 @@
 import Image from "next/image";
 import Link from "next/link";
-import { FaFacebookF, FaLinkedinIn, FaTwitter } from "react-icons/fa";
+import {
+  FaFacebookF,
+  FaLinkedinIn,
+  FaTwitter,
+  FaTelegramPlane,
+} from "react-icons/fa";
 import round_shape_2 from "/public/images/elements/round-shape-2.png";
 import store_btn_1 from "/public/images/ferrari.png";
 import store_btn_2 from "/public/images/icon/store-btn/2.png";
@@ -93,7 +98,7 @@ const Footer = () => {
               </li>
               <li>
                 <Link href="https://t.me/FerrariCoinErc">
-                  <FaLinkedinIn />
+                  <FaTelegramPlane />
                 </Link>
               </li>
             </ul>

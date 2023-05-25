@@ -41,7 +41,7 @@ const Hero = () => {
             <div className="col-lg-6 col-md-8">
               <div className="hero__content">
                 <div className="hero__subtitle">Contest FOR YOUR CHANCE to</div>
-                <h2 className="hero__title">big win</h2>
+                <h2 className="hero__title">win big </h2>
                 <p className="fw-bold">
                   0xFf0A0B38b9ECc6D1EEc7f
                   <br className={`${styls.pis}`} />

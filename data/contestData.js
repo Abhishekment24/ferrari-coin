@@ -1,9 +1,9 @@
-import contest_1 from "/public/images/iphone.png";
+import contest_1 from "/public/images/iphone3.png";
 import contest_2 from "/public/images/bike-1.png";
-import contest_3 from "/public/images/iphone-3.png";
+import contest_3 from "/public/images/iphone-4.png";
 import contest_4 from "/public/images/ferrari-1.png";
 import contest_5 from "/public/images/tesla.png";
-import contest_6 from "/public/images/ferrari-11.png";
+import contest_6 from "/public/images/ferrari-10.png";
 
 const contestData = [
   {

@@ -48,10 +48,11 @@ const Hero = () => {
                   dAC2d192AD30ca67e70
                 </p>
                 <p>
-                  Here&#39;s an exciting opportunity for you to win a luxurious
-                  car! Explore our collection of cars that are up for grabs in
-                  our thrilling car prize draws. Who knows, you could be the
-                  next fortunate winner to drive away in style!
+                  Ferrari Coin Giveaways is a new and very exciting Crytpo
+                  competition site, where you can WIN amazing cars and other
+                  prizes When we Reach our given milstone where Winners will be
+                  chosen Live through our Telegram channel...So why not join us
+                  on our journey and get in the mix to WIN wonderful Ferrari
                 </p>
                 {/*}  <div className="hero__btn">
                   <Link href="/contest" className="cmn-btn">

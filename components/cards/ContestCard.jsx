@@ -8,9 +8,9 @@ const ContestCard = ({ itm }) => {
       <Link href="" className="item-link"></Link>
       <div className="contest-card__thumb">
         <Image src={itm.img} alt={itm.title} />
-        <a href="#0" className="action-icon">
+        {/*  <a href="#0" className="action-icon">
           <FaRegHeart />
-        </a>
+        </a>*/}
         <div className="contest-num d-flex flex-column mb-3 text-center">
           <span>@</span>
           <h4 className={`number ${styls.size}`}>{itm.contest_no} MC</h4>

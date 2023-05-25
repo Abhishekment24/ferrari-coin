@@ -80,7 +80,7 @@ const Overview = () => {
               </div>
             </div>
           </div>
-          <div className="col-lg-4 col-sm-6 mb-30">
+          {/*<div className="col-lg-4 col-sm-6 mb-30">
             <div className="overview-card hover--effect-1">
               <div className="overview-card__icon">
                 <Image src={overview_3} alt="overview_1" />
@@ -90,7 +90,7 @@ const Overview = () => {
                 <p className={` ${styls.para}`}>Marketing</p>
               </div>
             </div>
-          </div>
+          </div>*/}
         </div>
       </div>
     </section>

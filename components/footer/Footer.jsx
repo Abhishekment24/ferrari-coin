@@ -87,17 +87,12 @@ const Footer = () => {
           <div className="col-lg-6">
             <ul className="social-links justify-content-lg-end justify-content-center">
               <li>
-                <Link href="/#">
-                  <FaFacebookF />
-                </Link>
-              </li>
-              <li>
-                <Link href="/#">
+                <Link href="https://twitter.com/Ferrari_Coin">
                   <FaTwitter />
                 </Link>
               </li>
               <li>
-                <Link href="/#">
+                <Link href="https://t.me/FerrariCoinErc">
                   <FaLinkedinIn />
                 </Link>
               </li>
